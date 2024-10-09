@@ -1,5 +1,6 @@
 import UseFetch from './UseFetch';
 import React from 'react'
+import './FetchData.css'
 
 const FetchData = () => {
   const [data]=UseFetch('https://api.npoint.io/9045c260b1565daa9e15');
